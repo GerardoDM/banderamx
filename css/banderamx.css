@@ -1,0 +1,77 @@
+
+
+
+#uno{
+    
+    height : 100vh;
+    
+}
+
+
+#dos{
+
+
+height : 100vh;
+
+}
+
+#tres{
+
+
+    height : 100vh;
+
+}
+
+@media (min-width: 576px) { 
+    #uno{
+
+        background-color: white;
+    }
+
+    #dos{
+
+        background-color: darkred;
+    }
+
+    #tres{
+
+    background-color: darkgreen;
+
+    }
+}
+
+
+@media (min-width: 768px) { 
+
+    #uno{
+
+        background-color: darkgreen;
+
+    }
+
+    #dos{
+
+        background-color: white;
+    }
+
+    #tres{
+        background-color: darkred;
+    }
+}
+
+
+@media (min-width: 992px) { 
+
+    #uno{
+
+        background-color: darkred
+    }
+
+    #dos{
+background-color: darkgreen;
+    }
+
+    #tres{
+        background-color: white;
+    }
+}
